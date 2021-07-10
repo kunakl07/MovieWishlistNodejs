@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title><%= typeof locals.title != undefined || locals.title !== ""  ? locals.title : "Movie Watchlist" %></title>
+  <% include ../layouts/header %>
+</head>
+
+<body>
+  <% include ../layouts/navbar %>
+
+  <div class="wrapper fadeInDown container mt-5 p-5">
+    <div>
+      <div class="text-info">
+        <%= typeof locals.message != "undefined" || locals.message != "" ? locals.message : "" %>
+      </div>
+      <% if (locals.movieData) { %>
+      <% for( let i = 0; i < locals.movieData.length; i++ ) { %>
+      <div class="card mb-2">
+        <div class="card-header p-1 d-flex justify-content-between align-items-center">
+          <span><%= locals.movieData[i].Title %></span>
+          <form action="/remove" method="POST">
+            <input type="hidden" value="<%= JSON.stringify(locals.movieData[i]) %>" name="movieData" />
+            <input type="submit" class="btn btn-danger" value="Remove From Wishlist">
+          </form>
+        </div>
+        <div class="card-body d-flex justify-content-around align-items-center">
+          <img src="<%= locals.movieData[i].Poster %>" class="align-self-stretch">
+          <div>
+            <div>
+              <div class="d-flex justify-content-between">
+                <span>Year : </span>
+                <%= locals.movieData[i].Year %>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span>IMDb Link :</span>
+                <a
+                  href="<%= `https://www.imdb.com/title/${locals.movieData[i].imdbID}/` %>"><%= `https://www.imdb.com/title/${locals.movieData[i].imdbID}/` %></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <% } %>
+      <% } %>
+    </div>
+  </div>
+
+  <br></br>
+  <br></br>
+  </div>
+  </div>
+  </div>
+</body>
+
+</html>
