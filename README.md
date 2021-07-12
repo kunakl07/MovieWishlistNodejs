@@ -1,3 +1,4 @@
 # simple-nodejs-express-ejs-boilerplate
 
-This project aims to develop a moviewishlist that would allow users to search for movies and save them. The API used is https://www.omdbapi.com/ 
+I this project I have developed moviewishlist website that would allow users to search for movies and save them. The API used is https://www.omdbapi.com/ . 
+I am using MySQL data for saving wishlisted movies of the added by users.
