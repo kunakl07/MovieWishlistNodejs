@@ -1,9 +1,26 @@
 # simple-nodejs-express-ejs-boilerplate
 
-I this project I have developed moviewishlist website that would allow users to search for movies and save them. The API used is https://www.omdbapi.com/ . 
-I am using MySQL data for saving wishlisted movies of the added by users.
+I this project I have developed moviewishlist website that would allow users to search for movies and save them. The API used is [OMDB API](https://www.omdbapi.com/) . 
+I am using MySQL data for saving wishlisted movies of the added by users.I
+
+Omdbapi: The Open Movie Database API
+The OMDb API is a RESTful web service to obtain movie information, all content and images on the site are contributed and maintained by our users.
+
+MySQL Database: MySQL is an open-source relational database management system.
+
+Nodejs: Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.
+
+We have used the below architecture provided by University of Colorado Boulder for setting up our website.
+
+## Architecture
 
 <p align = "center">
 <img src = 
-     /assets/Flowchart.jpg>
+     /assets/Flowchart2.jpg>
 </p>
+
+To run on your system, please install the following:
+1. [Nodejs](https://nodejs.org/en/download/)
+2. [MySQL database](https://www.mysql.com/downloads/)
+3. RUN `npm install`
+4. RUN `npm start`
