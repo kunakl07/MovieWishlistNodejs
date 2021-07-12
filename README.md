@@ -20,7 +20,7 @@ We have used the below architecture provided by University of Colorado Boulder f
 
 <p align = "center">
 <img src = 
-     /assets/Flowchart2.jpg>
+     /assets/FlowC.jpg>
 </p>
 
 To run on your system, please install the following:
