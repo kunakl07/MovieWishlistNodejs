@@ -1,3 +1,7 @@
+# Heroku link: https://movie-wishlistjskunal-mehta.herokuapp.com/
+
+
+
 # simple-nodejs-express-ejs-boilerplate
 
 I this project I have developed moviewishlist website that would allow users to search for movies and save them. The API used is [OMDB API](https://www.omdbapi.com/) . 
@@ -24,3 +28,4 @@ To run on your system, please install the following:
 2. [MySQL database](https://www.mysql.com/downloads/)
 3. RUN `npm install`
 4. RUN `npm start`
+
