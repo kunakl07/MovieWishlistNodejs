@@ -29,3 +29,9 @@ To run on your system, please install the following:
 3. RUN `npm install`
 4. RUN `npm start`
 
+## Add your movies!
+
+<p align = "center">
+<img src = 
+     /assets/FlowC.jpg>
+</p>
