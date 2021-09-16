@@ -33,5 +33,5 @@ To run on your system, please install the following:
 
 <p align = "center">
 <img src = 
-     /assets/OP.jpg>
+     /assets/OP.png>
 </p>
